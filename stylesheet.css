@@ -92,15 +92,15 @@ a {
   color: #5f5d60;
 }
 .message-wrapper {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
   background-color: #f7f7f7;
-  height: 180px;
+  height: 130px;
 }
 .message-wrapper p {
   opacity: 0.8;
   display:inline-block;
-  padding-top: 50px;
+  padding-top: 30px;
   font-size: 18px;
 }
 footer {
@@ -110,7 +110,7 @@ footer {
 
 footer img {
   margin-top: 10px;
-  height: 50px;
+  height: 80px;
 }
 
 footer p {
