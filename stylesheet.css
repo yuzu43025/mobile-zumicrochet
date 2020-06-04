@@ -39,6 +39,7 @@ a {
 
 .top-wrapper p {
   margin-bottom: 15px;
+  opacity: 0.9;
   font-weight: bold;
 }
 
@@ -80,26 +81,27 @@ a {
   top: 44%;
   width: 100%;
   color: #5f5d60;
-  font-size: 25px;
+  font-size: 20px;
 
 }
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 25px;
+  font-size: 18px;
   color: #5f5d60;
 }
 .message-wrapper {
   padding-bottom: 50px 0 50px 0;
   text-align: center;
   background-color: #f7f7f7;
+  height: 180px;
 }
 .message-wrapper p {
   opacity: 0.8;
   display:inline-block;
   padding-top: 50px;
-  font-size: 15px;
+  font-size: 12px;
 }
 footer {
   border-top: 1px solid #eee;
