@@ -1,66 +1,115 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="stylesheet.css">
-    <meta charset="utf-8">
-    <title>zumicrochet</title>
-  </head>
-  <body>
-    <header></header>
-      <div class="top-wrapper">
-      <div class="container">
-       <h1>ZUMI CROCHET.</h1>
-       <p>手元にある過去作を載せていきます。</p>
-       <p>引き取っていただける作品があれば、お声かけ下さい。</p>
-     </div>
-     </div>
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
 
-     <div class="lesson-wrapper">
-       <div class="container">
-         <div class="heading">
-           <h2>I crochet it. Just say you love it.</h2>
-         </div>
-         <div class="lessons">
-           <div class="lesson">
-             <div class="lesson-icon">
-               <img src="https://github.com/yuzu43025/zumicrochet/blob/master/circlepouch1.jpg?raw=true">
-               <p>丸形ポーチ</p>
-             </div>
-             <p class="text-contents">BLUE:直径10㎝<br>WHITE:直径9㎝</p>
-           </div>
-           <div class="lesson">
-             <div class="lesson-icon">
-               <img src="https://github.com/yuzu43025/zumicrochet/blob/master/garland1.jpg?raw=true">
-               <p>ガーランド</p>
-             </div>
-             <p class="text-contents">Length:約110㎝</p>
-           </div>
-           <div class="lesson">
-             <div class="lesson-icon">
-               <img src="https://github.com/yuzu43025/zumicrochet/blob/master/bathmat.jpg?raw=true">
-               <p>バスマット</p>
-             </div>
-             <p class="text-contents">Height:27cm<br>Width:36cm<br>Fabric:麻</p>
-           </div>
-         </div>
-       </div>
-     </div>
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
 
-     <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <p> NOTE：初心者の初期作品なのでカタチにばらつきがあります。<br>
-          無料でお渡しできますが、送料をかけられないので、直接お渡しできる方に限ります。<br>
-      </div>
+li {
+  list-style: none;
+}
 
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://github.com/yuzu43025/zumicrochet/blob/master/footer-logo.jpg?raw=true">
-      <p>ZUMI CROCHET.</p>
-    </div>
-  </footer>
+a {
+  text-decoration: none;
+}
 
-  </body>
-</html>
+.top-wrapper {
+  padding:180px 0 100px 0;
+  background-image:url(https://github.com/yuzu43025/zumicrochet/blob/master/zumicrochet-top.jpeg?raw=true);
+  color:white;
+  background-size:cover;
+  text-align: center;
+}
+
+.container {
+  margin:0 auto;
+  width: auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.lesson-wrapper {
+  height: 580px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-bottom: 70px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  padding-top:70px;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img{
+  position: relative;
+  width: 280px;
+  height: 253.21px;
+
+}
+
+.lesson-icon p {
+  top: 44%;
+  width: 100%;
+  color: #5f5d60;
+
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+.message-wrapper {
+  padding-bottom: 50px 0 50px 0;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.message-wrapper p {
+  opacity: 0.8;
+  display:inline-block;
+  padding-top: 50px;
+}
+footer {
+  border-top: 1px solid #eee;
+  float:right;
+}
+
+footer img {
+  height: 80px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  position:relative;
+  right:15px;
+}
