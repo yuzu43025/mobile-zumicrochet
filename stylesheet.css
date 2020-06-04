@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: sans-serif;
+  font-family:  sans-serif;
 }
 
 li {
@@ -40,6 +40,7 @@ a {
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .lesson-wrapper {
@@ -56,6 +57,7 @@ a {
 .heading h2 {
   font-weight: normal;
   padding-top:70px;
+  font-size: 25px;
 }
 
 .lesson {
@@ -79,13 +81,14 @@ a {
   top: 44%;
   width: 100%;
   color: #5f5d60;
+  font-size: 18px;
 
 }
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 13px;
+  font-size: 18px;
   color: #5f5d60;
 }
 .message-wrapper {
@@ -97,6 +100,7 @@ a {
   opacity: 0.8;
   display:inline-block;
   padding-top: 50px;
+  font-size: 15px;
 }
 footer {
   border-top: 1px solid #eee;
@@ -104,7 +108,7 @@ footer {
 }
 
 footer img {
-  height: 80px;
+  height: 50px;
 }
 
 footer p {
